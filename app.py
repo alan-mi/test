@@ -21,6 +21,10 @@ def xinde():
     print('aaaa')
     return '稽查试图%s'
 
+@app.route('/word')
+def word():
+    return '页面错误',404
+
 app.add_url_rule('/new1/',view_func=xinde)
 
 
