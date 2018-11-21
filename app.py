@@ -16,7 +16,9 @@ def haha(name):
     return '创建路由%s'%name
 
 
+
 def xinde():
+    print('aaaa')
     return '稽查试图%s'
 
 app.add_url_rule('/new1/',view_func=xinde)
